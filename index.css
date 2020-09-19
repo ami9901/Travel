@@ -1,0 +1,108 @@
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 100vh;
+    }
+}
+
+.top-nav-collapse {
+background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+background: transparent !important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #78909c !important;
+    }
+}
+.view{
+    background-image: url('img/unsplash2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    opacity: 100%;
+}
+.nav-link{
+    font-weight: 600;
+}
+.header1{
+    margin-top: 200px;
+    font-size: 100px;
+    font-weight: 700;
+    height: 205px;
+    opacity: 1;
+}
+h1{
+    margin-top: 100px;
+}
+h2{
+    font-family: "Brush Script MT",cursive;
+    font-weight: 300;
+    font-style:italic;
+    font-size: 100px;
+    margin-top: 0;
+    opacity: 1;
+}
+.search_button{
+    background: transparent linear-gradient(90deg, #FFAC3B 0%, #FF7600 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    height: 70px;
+    font-size:1.5rem;
+}
+.border-none{
+    border:none;
+}
+.text-style{
+    font-size:1.5rem;
+    color: lightgray;
+    font-weight: 600;
+}
+.card-style{
+    border-radius: 10px;
+}
+#header3{
+    font-size:2.5rem;
+}
+#escape_card{
+    width: 210px;
+}
+.fa-star{
+    color: #ffc527;
+    padding-right: 5px;
+}
+.scenery-img{
+    height: 200px;
+}
+#blogSec{
+    background-color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position: relative; /* child absolute 
+    margin: 0 -9999rem; */
+}
+.partner-logo{
+    max-width: 150px;
+    max-height: 100px;
+    vertical-align: top;
+}
+.footer{
+    background-color:#000000;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.fa{
+    padding-right: 5px;
+}
